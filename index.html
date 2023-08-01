@@ -14,42 +14,47 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
         </div>
-      </nav>
+    </nav>
 
-      <div class="text-lg-start text-md-center text-sm-end">
+    <!-- <div class="text-lg-start text-md-center text-sm-end">
         <h1>left side</h1>
         <h2>right side</h2>
       </div>
@@ -59,10 +64,94 @@
         <div class="div1 p-5 bg-danger col-lg-1 col-sm-3">2</div>
         <div class="div1 p-5 bg-success col-3">3</div>
         <div class="div1 p-5 bg-info col-3">4</div>
-      </div>
+      </div> -->
 
+    <!-- banner section -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <div class="carousel-item active bg-info p-5 text-center">
+                <h1>Hello World This is Meraj</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero perferendis nam illo culpa iusto
+                    deserunt voluptate impedit beatae incidunt corrupti?</p>
+                <input type="text">
+            </div>
+            <div class="carousel-item text-center p-5 bg-danger text-warning">
+                <h1>Hello World This is Meraj</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero perferendis nam illo culpa iusto
+                    deserunt voluptate impedit beatae incidunt corrupti?</p>
+                <button>Contact with Me</button>
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
+    <h1 class="text-center p-5">This is Service Section</h1>
 
+    <div class="service-container w-80 m-auto row d-flex justify-content-around align-items-center">
+        <div class="left-container p-5 col-md-6">
+            <button class="btn btn-primary p-2">Service List</button>
+            <h1>Service we can help you with</h1>
+            <p class="w-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem accusantium nemo temporibus
+                vel sequi corporis eligendi quam dolorum veritatis dicta.</p>
+            <ol>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+            </ol>
+            <div class="author-container d-flex">
+                <div class="author-profile d-flex align-items-center">
+                    <img src="author.jpeg" width="50" alt="">
+                    <h6 class="p-2">
+                        Shakib Bro <br>
+                        MD, Shakib & Co.
+                    </h6>
+                </div>
+                <button>More Details</button>
+            </div>
+        </div>
+
+        <div class="right-container col-md-6">
+            <div class="boxs text-center row">
+                <div class="card p-3 col-md-6 col-sm-6" style="width: 18rem;">
+                    <img src="icon1.png" class="card-img-top w-25 m-auto" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+                <div class="card p-3 col-md-6 col-sm-6" style="width: 18rem;">
+                    <img src="icon3.jpg" class="card-img-top w-25 m-auto" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+                <div class="card p-3 col-md-6 col-sm-6" style="width: 18rem;">
+                    <img src="icon3.jpg" class="card-img-top w-25 m-auto" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+                <div class="card p-3 col-md-6 col-sm-6" style="width: 18rem;">
+                    <img src="icon1.png" class="card-img-top w-25 m-auto" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- <h1 class="text-center p-5 text-danger">Hello Dwip BootStrap</h1>
 
     <div class="mb-3">
@@ -132,7 +221,7 @@
         <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Disabled checked switch checkbox input</label>
       </div> -->
     <!-- script added -->
-    <!-- <script src="./bootstrap-5.3.1-dist/js/bootstrap.bundle.js"></script> -->
+    <script src="./bootstrap-5.3.1-dist/js/bootstrap.bundle.js"></script>
     <script src="./bootstrap-5.3.1-dist/js/bootstrap.min.js"></script>
     <!-- online -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
